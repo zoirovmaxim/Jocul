@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    height: 98%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #1d3f4a;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+canvas {
+    background-color: #bce713; /* Culoarea fundalului canvasului */
+    border-radius: 10px; /* Marginile rotunde */
+}
+
+
+#winnerMessage {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    display: none;
+}
+
+#scoreboard {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #060606;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#scoreboard2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    color: #070707;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+/* Stil pentru butonul de restart */
+#restartButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Stil pentru butonul de restart la hover */
+#restartButton:hover {
+    background-color: #45a049;
+}
+
